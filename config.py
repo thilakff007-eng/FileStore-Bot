@@ -18,22 +18,22 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", "")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "") #Your API Hash from my.telegram.org
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8715819413:AAFGBo6SwrxKJeAsIdk4rSTeMUDoiqa_Tk0")
+APP_ID = int(os.environ.get("APP_ID", "34822566")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "3ab7815d50c6baec0e564742eee75b33") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "cantarella_wuwa") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "5756495153")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003809869259")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "Thilakff") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "7560349494")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 BASE_URL = os.environ.get("BASE_URL", "")  # e.g. https://your-domain.com
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://thilakff007:0U8T4Aiaoqmje2UD@shadow.vetq4tn.mongodb.net/?appName=Shadow")
+DB_NAME = os.environ.get("DATABASE_NAME", "thilakff007")
 #--------------------------------------------
-FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
+FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/CodeflixSupport")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
@@ -41,8 +41,8 @@ START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "18f426b1ec7d8209333c2dcf381932921647b6e4")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://arolinks.com/bH1T71")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "4134296f6ba51789996b73ae880bf798671b6d9b")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/hwdownload/3")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
